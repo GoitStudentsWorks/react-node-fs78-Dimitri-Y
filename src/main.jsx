@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <BrowserRouter basename="/GooseTrack-group-7">
+          <BrowserRouter basename="/react-node-fs78-Dimitri-Y">
             <AppWrapper />
           </BrowserRouter>
         </LocalizationProvider>
